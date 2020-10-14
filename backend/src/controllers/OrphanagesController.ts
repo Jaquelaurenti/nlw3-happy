@@ -30,10 +30,13 @@ export default {
     const orphanagesRepository = getRepository(Orphanage);
 
     const requestImages = req.files as Express.Multer.File[];
+    let images: { path: string; }[] =[];
+    if(requestImages){
+       images = requestImages.map((image) => {
+        return { path: image.filename };
+      });
 
-    const images = requestImages.map((image) => {
-      return { path: image.filename };
-    });
+    }
 
     const schema = Yup.object().shape({
       name: Yup.string().required(),
