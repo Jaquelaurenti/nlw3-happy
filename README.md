@@ -41,27 +41,28 @@ Estas são as principais tecnologias utilizadas na construção do projeto:
 
 ## 🚀 Executando o projeto
 
-Antes de qualquer coisa, você precisa ter  o [Git](https://git-scm.com), o [Yarn](https://yarnpkg.com/) e o [Node.js](https://nodejs.org/en/) instalado na sua máquina. Feito isso, você pode prosseguir.
+Antes de qualquer coisa, você precisa ter instalado  o [Git](https://git-scm.com), o [Yarn](https://yarnpkg.com/) e o [Node.js](https://nodejs.org/en/) instalado na sua máquina. 
+Feito isso, você pode prosseguir.
 
 ### Instalando dependências
 
 ```bash
-# Clone este repositório:
+# Clone o repositório
 $ git clone https://github.com/Jaquelaurenti/nlw3-happy
 
-# Acesse à pasta do projeto:
+# Acesse a pasta do projeto
 cd nlw3-happy
 
-# Vá à pasta backend:
+# Vá ao backend da aplicação
 cd backend
 
-# Instale as depêndencias:
+# Instale as depêndencias
 yarn install
 
-# Vá à pasta web:
+# Vá a pasta web
 cd ../web
 
-# Instale as depêndencias:
+# Instale as depêndencias
 yarn install
 
 ```
@@ -95,8 +96,8 @@ o projeto será executado na porta http://localhost:3000
 Esse repositório está sobe a licença [MIT](https://github.com/jaquelaurenti/nlw3-happy/blob/master/LICENSE.md).
 
 
-## 🚀 Entre em contato!
-Desenvolvido por Jaque Laurenti(https://www.linkedin.com/in/jaquelaurenti).
+## 🚀 Entre em contato
+Desenvolvido por [Jaque Laurenti](https://www.linkedin.com/in/jaquelaurenti).
 
 ## Apoio 
 💜 RocketSeat
