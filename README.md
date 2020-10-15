@@ -1,5 +1,5 @@
 <h1 style="display: flex; align-items: center; justify-content: center">
-  <img alt="Happy" title="Happy" src="./github/icon.svg" style="margin-right: 12px;"/>
+  <img src="web/src/images/logo.svg" style="margin-right: 12px;">
   Happy
 </h1>
 
@@ -9,7 +9,7 @@
 </h2>
 
 <h1 align="center">
-  <img alt="landing-page" title="landing-page" src="./github/landing.svg">
+  <img src="web/src/images/landing.svg">
 </h1>
 
 <h3 align="center"><b>Status: Em andamento 👩🏼‍💻</b></h3>
