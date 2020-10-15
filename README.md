@@ -1,5 +1,5 @@
 <h1 style="display: flex; align-items: center; justify-content: center">
-  <img src="web/src/images/logo.svg" style="margin-right: 12px;">
+  <img src="web/src/images/logo.svg" style="margin-right: 20px;">
   Happy
 </h1>
 
@@ -9,9 +9,8 @@
 </h2>
 
 <h1 align="center">
-  <img src="web/src/images/landing.svg">
+  <img src="web/src/images/landing.svg" style="width=”10%” height=”20%”">
 </h1>
-
 <h3 align="center"><b>Status: Em andamento 👩🏼‍💻</b></h3>
 
 
