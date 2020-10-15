@@ -1,13 +1,12 @@
-import React from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { FiArrowRight } from 'react-icons/fi';
 
-import { FiArrowRight } from "react-icons/fi";
-import { Link } from "react-router-dom";
+import '../styles/pages/landing.css';
 
-import "../styles/pages/landing.css";
+import logoImg from '../images/logo.svg';
 
-import logoImg from "../images/logo.svg";
-
-const Landing: React.FC = () => {
+function Landing() {
   return (
     <div id="page-landing">
       <div className="content-wrapper">
@@ -19,7 +18,7 @@ const Landing: React.FC = () => {
         </main>
 
         <div className="location">
-          <strong>Suzano</strong>
+          <strong>Jandira</strong>
           <span>São Paulo</span>
         </div>
 
@@ -29,6 +28,6 @@ const Landing: React.FC = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Landing;
