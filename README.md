@@ -95,7 +95,7 @@ Esse repositório está sobe a licença [MIT](https://github.com/jaquelaurenti/n
 
 
 ## 🚀 Entre em contato
-Desenvolvido por [Jaque Laurenti](https://www.linkedin.com/in/jaquelaurenti).
+Desenvolvido por [Jaque Laurenti](https://www.linkedin.com/in/jaqueline-laurenti-30b15933/).
 
 ## Apoio 
 💜 RocketSeat
