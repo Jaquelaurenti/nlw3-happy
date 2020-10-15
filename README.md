@@ -22,9 +22,9 @@ O objetido do Happy é conectar você, usuário aos Orfanatos próximos da sua c
 
 ## 📝 Funcionalidades
 
-[x] Cadastrar um novo orfanato.
-[x] Listar os orfanatos próximos de sua região.
-[x] Criar rota até um orfanato via Google Maps.
+  - [x] Cadastrar novo Orfanato <p>
+  - [x] Consultar Orfanatos na Região <p>
+  - [x] Visualizar rota do Orfanato através do google maps <p>
 
 
 ## 🔨 Tecnologias
@@ -41,7 +41,6 @@ Estas são as principais tecnologias utilizadas na construção do projeto:
 ## 🚀 Executando o projeto
 
 Antes de qualquer coisa, você precisa ter instalado  o [Git](https://git-scm.com), o [Yarn](https://yarnpkg.com/) e o [Node.js](https://nodejs.org/en/) instalado na sua máquina. 
-Feito isso, você pode prosseguir.
 
 ### Instalando dependências
 
