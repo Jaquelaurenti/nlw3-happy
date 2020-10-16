@@ -1,10 +1,7 @@
 <img src="web/src/images/logo.svg" style="margin-right: 20px;">
 # Happy
 
-<h2 align="center">
-  Leve felicidade para o mundo. <br>
-  Visite orfanatos e mude o dia de muitas crianças.
-</h2>
+## 💜 Leve felicidade para a sua cidade, visite os Orfanatos!
 
 <h1 align="center">
   <img src="web/src/images/landing.svg" style="width=”10%” height=”20%”">
