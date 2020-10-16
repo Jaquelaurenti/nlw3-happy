@@ -1,5 +1,5 @@
+# Happy 😃
 <img src="web/src/images/logo.svg" style="margin-right: 20px;">
-## Happy
 
 ## 💜 Leve felicidade para a sua cidade, visite os Orfanatos!
 
