@@ -65,6 +65,25 @@ yarn install
 
 ```
 
+
+### Subindo o Banco de Dados
+
+```bash
+# Acesse a pasta do projeto 
+
+cd nlw-happy
+
+# Acesse a pasta do backend
+
+cd backend
+
+# Execute 
+
+yarn migration:run
+
+
+```
+
 ### Rodando Aplicação 
 
 ```bash
