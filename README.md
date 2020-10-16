@@ -1,6 +1,5 @@
-# Happy
 <img src="web/src/images/logo.svg" style="margin-right: 20px;">
-  Happy
+# Happy
 
 <h2 align="center">
   Leve felicidade para o mundo. <br>
