@@ -84,8 +84,13 @@ export default function Orphanage() {
                 doubleClickZoom={false}
               >
                 <TileLayer
-                  url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
+                  url={
+                    process.env.REACT_APP_MAPBOX_TOKEN
+                      ? `https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`
+                      : 'https://a.tile.openstreetmap.org/{z}/{x}/{y}.png'
+                  }
                 />
+
                 <Marker
                   interactive={false}
                   icon={mapIcon}
@@ -124,13 +129,13 @@ export default function Orphanage() {
                   fim de semana
                 </div>
               ) : (
-                <div className="open-on-weekends dont-open">
-                  <FiInfo size={32} color="#FF669D" />
-                  {/* eslint-disable-next-line */}
+                  <div className="open-on-weekends dont-open">
+                    <FiInfo size={32} color="#FF669D" />
+                    {/* eslint-disable-next-line */}
                   Não atendemos <br />
                   fim de semana
-                </div>
-              )}
+                  </div>
+                )}
             </div>
 
             <button type="button" className="contact-button">
