@@ -4,6 +4,7 @@ import { LeafletMouseEvent } from 'leaflet';
 import { useHistory } from 'react-router-dom';
 
 import { FiPlus, FiX } from 'react-icons/fi';
+import { useToast } from '../hooks/toast';
 
 import api from '../services/api';
 
@@ -13,6 +14,7 @@ import '../styles/pages/create-orphanage.css';
 
 export default function CreateOrphanage() {
   const history = useHistory();
+  const { addToast } = useToast();
 
   const [position, setPosition] = useState({ latitude: 0, longitude: 0 });
 
@@ -84,7 +86,11 @@ export default function CreateOrphanage() {
 
     await api.post('orphanages', data);
 
-    alert('Cadastro realizado com sucesso!');
+    addToast({
+      type: 'success',
+      title: 'Sucesso',
+      description: 'Orfanato cadastrado com sucesso!',
+    });
 
     history.push('/app');
   }

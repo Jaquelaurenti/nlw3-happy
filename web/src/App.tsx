@@ -4,9 +4,14 @@ import './styles/global.css';
 import 'leaflet/dist/leaflet.css';
 
 import Routes from './routes';
+import AppProvider from './hooks';
 
 function App() {
-  return <Routes />;
+  return (
+    <AppProvider>
+      <Routes />
+    </AppProvider>
+  );
 }
 
 export default App;
